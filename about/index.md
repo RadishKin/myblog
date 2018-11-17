@@ -1,23 +1,9 @@
 ---
-title: about
+title: 关于
 date: 2018-11-16 02:43:47
 comments: false
 ---
-```
-graph TB
-A[如果你愿意一层一层剥开我的心]-->B[你会惊讶]
-B --> C{里面竟然装满了}
-C --> D{火锅}
-D --> O{饼干}
-O -->X[还有你]
-C --> E{烧烤}
-E --> P{薯片} 
-P -->X
-C --> F{自助餐}
-F --> Q{棒棒糖}
-Q -->X
-X -->Z[那你就可以在我心里吃火锅烧烤自助餐饼干薯片棒棒糖了]
-Z -->Y[等你吃完]
-Y -->U[你就胖得把我的心塞得满满的]
-U -->V[再也出不去了]
-```
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本站原创作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
+
+欢迎转载，引用和修改
