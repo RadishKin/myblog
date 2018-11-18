@@ -1,5 +1,5 @@
 ---
-title: links
+title: 友情链接
 date: 2018-11-16 02:43:59
 comments: false
 ---
@@ -8,3 +8,5 @@ comments: false
 </div>
 
 junqson的博客 <https://blog.junqson.xin>
+
+stalary<http://www.stalary.com>

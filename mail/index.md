@@ -1,4 +1,7 @@
-登录邮箱
+---
+title: 邮箱登录
+comments: false
+---
 
 <style>
 .bizmail_loginpanel{font-size:12px;width:300px;height:auto;border:1px solid #cccccc;background:#ffffff;}
@@ -18,3 +21,7 @@
 <script type="text/javascript">
 writeLoginPanel({domainlist:"ljmx.top", mode:"vertical"});
 </script>
+
+</br>
+</br>
+</br>
