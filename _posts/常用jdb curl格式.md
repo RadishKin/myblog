@@ -6,8 +6,14 @@ tags:
 - java
 - jdbc
 ---
-转载自 [落落无伤的博客](https://www.cnblogs.com/qianqian528/p/8032098.html)  
-https://www.cnblogs.com/qianqian528/p/8032098.html
+
+
+转载自  ：
+{% blockquote 落落无伤的博客 https://www.cnblogs.com/qianqian528/p/8032098.html 常用数据库 JDBC URL 格式 %}
+{% endblockquote %}
+
+ 
+
 ## 一 常用数据库 JDBC URL 格式
 ### 1 sqLite
  驱动程序包名：`sqlitejdbc-v056.jar`  
