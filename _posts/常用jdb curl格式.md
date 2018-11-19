@@ -1,12 +1,11 @@
 ---
-title: [转载]常用数据库 JDBC URL 格式
+title: 常用jdb_curl格式
 categories:
 - 笔记
 tags:
 - java
-- jdbc
+- JDBC
 ---
-
 
 转载自  ：
 {% blockquote 落落无伤的博客 https://www.cnblogs.com/qianqian528/p/8032098.html 常用数据库 JDBC URL 格式 %}
