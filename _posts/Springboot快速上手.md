@@ -275,3 +275,6 @@ public class UserController {
 运行main函数，访问`http://localhost:8080/user/register?username=mx&phonenumber=1234546&password=123`会在数据库中新建一条数据,访问`http://localhost:8080/user/login?phonenumber=123454&password=123`(数据表里存在的数据)会输出登录正常。
 
 之后的文章会对这个简单的注册登录做更多改进
+
+
+>参考：https://blog.csdn.net/u013248535/article/details/55100979/
