@@ -9,7 +9,7 @@ tags:
 
 Springboot是由spring开发团队Pivotal推出的全新框架，他设计目的简化繁琐的Spring配置,专注于应用的开发。SpringBoot采用了"约定优先于配置（COC，Convnetion Over Configuration）"的设计思想，通过为企业开发应用环境设计出了很多自动配置的依赖模块,这些模块几乎不需要配置，开箱即用，极大的简化了开发周期和代码量。
 
-<!--toc-->
+<!-- toc -->
 
 ### 环境
 
