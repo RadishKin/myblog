@@ -97,3 +97,45 @@ Spring Restful
     <artifactId>spring-boot-starter-data-rest</artifactId>
 </dependency>
 ```
+
+### 工程目录结构
+
+然后我们查看下项目生成的默认文件结构
+```bash
+$ tree                
+.
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── top/ljmx/springboot/demo/demo
+│   │   │       └── DemoApplication.java
+│   │   └── resources
+│   │       ├── application.properties
+│   │       ├── static
+│   │       └── templates
+│   └── test
+│       └── java
+│           └── top/ljmx/springboot/demo/demo
+│               └── DemoApplicationTests.java
+└── srpingboot-sdemo.iml
+
+18 directories, 7 files
+```
+
+#
+
+`src`是项目的主文件夹，其中`main`是主要代码，`test`是测试代码，这是一个典型的Maven工程的文件结构，`pom.xml`是Maven的依赖文件。`main`先分为`java`和`resources`，`java`存放代码，`resources`存放静态资源，目录中的`application.properties`是工程的配置文件
+
+Springboot遵循springMVC的分层结构结构，所以我们先在包`top.ljmx.springboot.demo.demo`下新建以下几个子包
+- controller 存放所有的控制器代码
+- model 存放所有的数据模型
+- repository 存放所有的数据操作
+- service 业务代码
+
+其他可选包
+- config 存放配置代码，如swagger
+- util 存放工具类
+- expection 统一异常处理
