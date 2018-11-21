@@ -55,13 +55,14 @@ JDBC URL:` jdbc:mysql://<host>:<port>/<database_name>`
 默认端口3306，如果服务器使用默认端口则port可以省略  
 
 >MySQL Connector/J Driver 允许在URL中添加额外的连接属性  
->```
->jdbc:mysql://<host>:<port>/<database_name>?property1=value1&property2=value2
->```  
+```  
+jdbc:mysql://<host>:<port>/<database_name>?property1=value1&property2=value2
+```    
 >注意： 需要操作记录为了避免乱码应该加上属性 useUnicode=true&characterEncoding=utf8 ，比如  
->```
->jdbc:mysql://192.168.177.129:3306/report?useUnicode=true&characterEncoding=utf8
->``` 
+```  
+jdbc:mysql://192.168.177.129:3306/report?useUnicode=true&characterEncoding=utf8
+``` 
+
 
 ## 二 Hibernate 中数据库的方言  
 ### 1 Oracle 方言
