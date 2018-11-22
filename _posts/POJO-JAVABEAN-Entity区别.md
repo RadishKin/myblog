@@ -1,5 +1,5 @@
 ---
-title: [转载]POJO,JAVABEAN,Entity区别
+title: "[转载]POJO,JAVABEAN,Entity区别"
 categories:
 - 笔记
 tags:
