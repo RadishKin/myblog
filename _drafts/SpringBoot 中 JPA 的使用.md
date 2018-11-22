@@ -9,9 +9,8 @@ tags:
 
 本文是我的Springboot系列的第二篇
 
-谈起操作数据库，大致可以分为几个阶段：首先是 JDBC 阶段，初学 JDBC 可能会使用原生的 JDBC 的 API，再然后可能会使用数据库连接池，比如：c3p0、dbcp，还有一些第三方工具，比如 dbutils 等；下一个阶段就是 Hibernate，大家体会到了操作数据库可以不用自己手动编写 SQL，调用 Hibernate 提供的 API 即可。今天给大家讲述的是操作数据库的另一个模块 JPA，即 Java 持久层的 API。
 
-## 一、JPA 概述
+## JPA 概述
 1. Java Persistence API（Java 持久层 API）：用于对象持久化的 API，JPA通过JDK 5.0注解或XML描述对象－关系表的映射关系，并将运行期的实体对象持久化到数据库中
 2. 作用：使得应用程序以统一的方式访问持久层
 3. 前言中提到了 Hibernate，那么JPA 与 Hibernate究竟是什么关系呢：
@@ -22,12 +21,19 @@ tags:
 
     3. Hibernate 是 JPA 的一个实现
 
-4. JPA 包括三个方面的技术：
+## spring-data-jpa的简单介绍
+SpringData : Spring 的一个子项目。用于简化数据库访问，支持NoSQL 和 关系数据存储。其主要目标是使数据库的访问变得方便快捷。
 
-    1. ORM 映射元数据，支持 XML 和 JDK 注解两种元数据的形式
+SpringData 项目所支持 NoSQL 存储：
+```
+ MongoDB （文档数据库）
+ Neo4j（图形数据库）
+ Redis（键/值存储）
+ Hbase（列族数据库）
+```
+SpringData 项目所支持的关系数据存储技术：
+```
+JDBC
+JPA
+```
 
-    2. JPA 的 API
-
-    3. 查询语言：JPQL
-
-本文也将详细介绍JPA ORM 映射元数据的注解方式和 JPA 的 API 以及 JPQL 三个方面

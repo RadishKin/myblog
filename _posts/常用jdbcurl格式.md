@@ -1,5 +1,5 @@
 ---
-title: 常用jdb_curl格式
+title: "[转载]常用jdb_curl格式"
 categories:
 - 笔记
 tags:
