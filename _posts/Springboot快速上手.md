@@ -23,7 +23,7 @@ Springboot是由spring开发团队Pivotal推出的全新框架，他设计目的
 
 
 ### 项目Maven依赖
-我们使用Maven作为项目的的依赖管理，下面列出了项目所有使用的模块
+我们使用Maven作为项目的的依赖管理，有关Maven的内容可以查看网上的其他相关信息，下面列出了项目所有使用的模块
 
 继承Springboot的核心依赖
 ```xml
@@ -66,7 +66,7 @@ lmbok，减少代码量
 	<optional>true</optional>
 </dependency>
 ```
-Springboot 测试模块，包括junit
+Springboot 测试模块，默认使用junit
 ```xml
 <dependency>
 	<groupId>org.springframework.boot</groupId>
@@ -90,13 +90,7 @@ swagger
 </dependency>
 ```
 
-Spring Restful
-```xml
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-data-rest</artifactId>
-</dependency>
-```
+
 
 ### 工程目录结构
 
