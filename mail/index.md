@@ -19,7 +19,7 @@ title: 登录邮箱
 .bizmail_loginpanel select{width:110px;height:20px;margin:0 2px;}
 </style>
 
-<script type="text/javascript" src="http://exmail.qq.com/zh_CN/htmledition/js_biz/outerlogin.js"  charset="gb18030"></script>
+<script type="text/javascript" src="https://exmail.qq.com/zh_CN/htmledition/js_biz/outerlogin.js"  charset="gb18030"></script>
 <script type="text/javascript">
 writeLoginPanel({domainlist:"ljmx.top", mode:"vertical"});
 </script>
